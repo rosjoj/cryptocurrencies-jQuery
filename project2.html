@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+        integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="crypto.css">
+</head>
+
+<body>
+    <div class="cont">
+        <div class="cover">
+            <div class="heading">
+                Cryptocurrencies
+            </div>
+
+        </div>
+
+        <nav class="navbar navbar-inverse " id="navbar">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img id="logo" alt="Brand" src="images/image4.png"></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="links" style="height: 50px;"><a href="#" id="1" style="height: 50px;">Home</a></li>
+                        <li class="links" style="height: 50px;"><a href="#" id="2" style="height: 50px;">Live
+                                reports</a>
+                        </li>
+                        <li class="links"><a href="#" id="3" style="height: 50px;">About</a></li>
+                    </ul>
+                    <form id="myform" class=" navbar-form navbar-right">
+                        <div class="form-group">
+                            <input id="search" type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+
+        <div id="about" class="container-fluid"></div>
+        <div id="foundcoin"></div>
+        <div id="dmain"></div>
+
+    </div>
+
+    <div id="modal-box">
+        <div class="modal-content">
+            <div class="modalheader">
+                <span class="close">&times;</span>
+                <h2 id="mheading">Selected Coins</h2>
+            </div>
+            <div class="modalbody">
+
+            </div>
+
+            <div class="modalfooter"> <button type="button" class="reportsbtn">LIVE REPORTS</button><button
+                    type="button" id="savchanges" class="reportsbtn">SAVE CHANGES</button></div>
+        </div>
+
+    </div>
+    <script src="project2.js">
+    </script>
+
+</body>
+
+</html>
